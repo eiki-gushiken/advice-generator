@@ -1,0 +1,20 @@
+@media (max-width: 576px) {
+    .gerador-de-conselhos{
+        max-width: 300px;
+    }
+
+    .gerador-de-conselhos .titulo{
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+
+    .gerador-de-conselhos .conselho{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .gerador-de-conselhos .divisor{
+        content: url(../images/pattern-divider-mobile.svg);
+        margin-bottom: 12px;
+    }
+}

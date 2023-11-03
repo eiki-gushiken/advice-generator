@@ -1,0 +1,58 @@
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.gerador-de-conselhos {
+    background-color: var(--advice-card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 540px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 30px 30px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.gerador-de-conselhos .titulo {
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.gerador-de-conselhos .texto-conselho {
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.gerador-de-conselhos .divisor {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gerador-de-conselhos .btn-gerar-conselho {
+    background-color: var(--advice-dice-color);
+    padding: 20px 20px 16px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+}
+
+.gerador-de-conselhos .btn-gerar-conselho:hover{
+    box-shadow: 0 0 30px var(--advice-dice-color);
+    cursor: pointer;
+}
